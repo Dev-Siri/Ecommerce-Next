@@ -19,7 +19,7 @@ const CartItem: FC<CartItemProps> = ({ item, children }) => {
       <aside className="item-desc">
         <section className="flex top">
           <h5>{item.name}</h5>
-          <h4>₹{item.price}</h4>
+          <h4>${item.price}</h4>
         </section>
         <section className="flex bottom">
           <div>

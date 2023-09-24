@@ -46,7 +46,7 @@ const Cart: FC<PropsWithChildren> = ({ children }) => {
           <article className="cart-bottom">
             <section className="total">
               <h3>Subtotal: </h3>
-              <h3>₹{totalPrice}</h3>
+              <h3>${totalPrice}</h3>
             </section>
             <section className="btn-container">
               <PaymentButton />
